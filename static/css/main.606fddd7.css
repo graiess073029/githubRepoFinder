@@ -1,0 +1,246 @@
+p {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif !important
+}
+
+svg {
+    fill: #000
+}
+
+path {
+    max-height: 40px;
+    max-width: 40px
+}
+
+#root,
+body,
+html {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw
+}
+
+.root_inner {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 60%;
+    padding: 2.5% 10px 5%;
+    width: 25%
+}
+
+.root_inner header {
+    align-items: center;
+    display: flex;
+    gap: 16px
+}
+
+.root_inner header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-transform: capitalize
+}
+
+.root_inner select {
+    border: 3px solid #000;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 10px 30px 10px 10px
+}
+
+.root_inner header div.square {
+    background-color: #000;
+    border-radius: 10px;
+    height: 50px;
+    width: 50px
+}
+
+button {
+    background-color: #000;
+    border-radius: 7px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    height: 50px;
+    letter-spacing: 1px;
+    padding: 10px 30px 10px 10px;
+    width: 100%
+}
+
+div.repo .infos {
+    display: flex;
+    justify-content: space-between
+}
+
+.infos div {
+    gap: 6px
+}
+
+.infos div,
+.logs {
+    align-items: center;
+    display: flex
+}
+
+.logs {
+    background-color: #e9ecef;
+    border-radius: 7px;
+    color: #000;
+    font-size: 1.2em;
+    height: 100px;
+    justify-content: center;
+    text-transform: capitalize;
+    width: 100%
+}
+
+div.repo {
+    border: 3px solid #000;
+    border-radius: 14px;
+    color: inherit;
+    flex-direction: column;
+    padding: 20px 15px;
+    text-decoration: none
+}
+
+div.repo:hover {
+    background-color: #f8f9fa;
+    transition: background-color .3s ease
+}
+
+a {
+    text-decoration: none
+}
+
+.circle {
+    background-color: #f1e15a;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px
+}
+
+.repo.error {
+    display: none
+}
+
+.repo p.name {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: capitalize
+}
+
+.repo p.description {
+    color: #c4c4c4;
+    font-size: .9em;
+    text-transform: capitalize
+}
+
+svg {
+    width: 10px
+}
+
+@media (max-width:1200px) {
+    .root_inner {
+        height: auto;
+        width: 40%
+    }
+
+    .root_inner header h1 {
+        font-size: 1.3em
+    }
+
+    .root_inner select {
+        font-size: 1em
+    }
+
+    .repo p.name {
+        font-size: 1.3em
+    }
+
+    button {
+        font-size: .9em;
+        height: 45px
+    }
+}
+
+@media (max-width:768px) {
+    .root_inner {
+        width: 70%
+    }
+
+    .root_inner header h1 {
+        font-size: 1.2em
+    }
+
+    .root_inner select {
+        font-size: 1em;
+        padding: 8px 20px
+    }
+
+    button {
+        font-size: .9em;
+        height: 40px;
+        padding: 8px
+    }
+
+    .repo p.name {
+        font-size: 1.2em
+    }
+
+    .repo p.description {
+        font-size: .8em
+    }
+
+    .logs {
+        font-size: .9em;
+        height: 80px
+    }
+
+    div.repo {
+        padding: 15px 10px
+    }
+}
+
+@media (max-width:480px) {
+    .root_inner {
+        width: 90%
+    }
+
+    .root_inner header h1 {
+        font-size: 1em
+    }
+
+    .root_inner select {
+        font-size: .9em;
+        padding: 6px 15px
+    }
+
+    button {
+        font-size: .8em;
+        height: 35px
+    }
+
+    .repo p.name {
+        font-size: 1em
+    }
+
+    .repo p.description {
+        font-size: .7em
+    }
+
+    .logs {
+        font-size: .8em;
+        height: 70px
+    }
+}
+
+a:focus,
+a:hover {
+    background-color: #e2e6ea;
+    outline: none
+}
+
+/*# sourceMappingURL=main.606fddd7.css.map*/
